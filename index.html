@@ -149,7 +149,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="icon" type="image/png" href="" />
 
-  <title>Demonstrating CropFollow++: Robust Under-Canopy Navigation with Keypoints</title>
+  <title>CropFollow++</title>
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="./files/iframe_api" type="text/javascript">
@@ -158,13 +158,10 @@
 
 <body>
   <br />
-
-
   <center>
-    <span style="font-size:44px;font-weight:bold;">Demonstrating CropFollow++:  <br/>Robust Under-Canopy Navigation with Keypoints</span>
+    <span style="font-size:44px;font-weight:bold;">Demonstrating CropFollow++  <br/>Robust Under-Canopy Navigation with Keypoints</span>
   </center>
   <br />
-
 
   <table align="center" width="1000px" style='margin-bottom: 1px'>
     <tbody>
@@ -174,25 +171,16 @@
             <span style="font-size:22px">Arun Narenthiran Sivakumar<sup>1</sup></span>
           </center>
         </td>  
-
-        <td align="center" width="90px">
+        <td align="center" width="190px">
           <center>
             <span style="font-size:22px">Mateus Valverde Gasparino<sup>1</sup></span>
           </center>
         </td>
-
         <td align="center" width="190px">
           <center>
             <span style="font-size:22px">Michael McGuire<sup>2</sup></span>
           </center>
         </td>
-
-        <td align="center" width="90px">
-          <center>
-            <span style="font-size:22px">Vitor AH Higuti<sup>2</sup></span>
-          </center>
-        </td>
-
       </tr>
     </tbody>
   </table>
@@ -200,22 +188,22 @@
   <table align="center" width="800px" style='margin-bottom: 1px'>
     <tbody>
       <tr>
-        <td align="center" width="300px">
+        <td align="center" width="190px">
+          <center>
+            <span style="font-size:22px">Vitor AH Higuti<sup>2</sup></span>
+          </center>
+        </td>
+        <td align="center" width="190px">
           <center>
             <span style="font-size:22px">M Ugur Akcal<sup>1</sup></span>
           </center>
         </td> 
-        
-        <td align="center" width="150px">
+        <td align="center" width="190px">
           <center>
             <span style="font-size:22px">Girish Chowdhary<sup>1</sup></span>
           </center>
         </td>
-        
       </tr>
-
-
-     
     </tbody>
   </table>
 
@@ -223,18 +211,13 @@
   <table align="center" width="700px" style='margin-bottom: 1px'>
     
     <tr>
-      <td align="center" width="230px">
+      <td align="center" width="190px">
         <center>
           <span style="font-size:17px; font-weight: 200;"><sup>1</sup> University of Illinois at Urbana-Champaign</span>
        
         </center>
       </td>
-      
-    </tr>
-  </table>
-  <table align="center" width="700px" style='margin-bottom: 1px'>
-    <tr>
-      <td align="center" width="230px">
+      <td align="center" width="190px">
         <center>
           <span style="font-size:17px; font-weight: 200;"><sup>2</sup> Earthsense Inc. </span>
        
@@ -283,7 +266,7 @@
 
   <br />
 
-
+ <!-- 
   <table align="center" width="1000px" style='margin-bottom: 5px'>
     <tbody>
       <tr>
@@ -328,17 +311,20 @@
     </tr>
   </table>
 
-
-  
- 
+  -->
 
   <br />
 
 
   <div style="width:800px; margin:0 auto; text-align:justify">
-    We present an empiricially robust vision-based navigation system for under-canopy agricultural robots using semantic keypoints. Autonomous under-canopy navigation is challenging due to the tight spacing between the crop rows (&tilde; 0.75 m), degradation in RTK-GPS accuracy due to multipath error, and noise in LiDAR measurements from the excessive clutter. Earlier work called CropFollow addressed these challenges by proposing a learning-based visual navigation system with end-to-end perception. However, this approach has the following limitations: Lack of interpretable representation, and Sensitivity to outlier predictions during occlusion due to lack of a confidence measure.
-Our system, CropFollow++ , introduces modular perception architecture with a learned semantic keypoint representation. This learned representation is more modular, and more interpretable than CropFollow, and provides a confidence measure
-to detect occlusions. CropFollow++ significantly outperformed CropFollow in terms of the number of collisions (13 vs. 33) in field tests spanning &tilde; 1.9km each in challenging late-season fields with significant occlusions. We also deployed CropFollow++ in multiple under-canopy cover crop planting robots on a large scale (25 km in total) in various field conditions and we discuss the key lessons learned from this.
+    We present an empiricially robust vision-based navigation system for under-canopy agricultural robots using semantic keypoints. 
+    Autonomous under-canopy navigation is challenging due to the tight spacing between the crop rows (~0.75 m), degradation in RTK-GPS accuracy due to multipath error, and noise in LiDAR measurements from the excessive clutter. 
+    Earlier work called CropFollow addressed these challenges by proposing a learning-based visual navigation system with end-to-end perception. 
+    However, this approach has the following limitations: Lack of interpretable representation, and Sensitivity to outlier predictions during occlusion due to lack of a confidence measure.
+    Our system, CropFollow++ , introduces modular perception architecture with a learned semantic keypoint representation. 
+    This learned representation is more modular, and more interpretable than CropFollow, and provides a confidence measure to detect occlusions. 
+    CropFollow++ significantly outperformed CropFollow in terms of the number of collisions (13 vs. 33) in field tests spanning ~1.9km each in challenging late-season fields with significant occlusions. 
+    We also deployed CropFollow++ in multiple under-canopy cover crop planting robots on a large scale (25 km in total) in various field conditions and we discuss the key lessons learned from this.
   </div>
   <br />
 
