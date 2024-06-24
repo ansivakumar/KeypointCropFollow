@@ -373,15 +373,15 @@
     </tr>
   </table>
   
-  <!-- 
+  
   <div style="width:800px; margin:0 auto; text-align:justify">
-      We use a convolutional network to output robot heading and placement in row. This is used to compute the row center which is used as a reference trajectory. A model predictive controller converts reference trajectories to angular velocity commands.
+    The camera RGB image is used as input to our neural network model that predicts keypoints to locate the crop rows. The keypoints are used to create a trajectory that is used as the reference for an MPC to navigate the robot.
   </div>
   <br /> 
 
 
   <p style="margin-top:4px;">
-  </p>-->
+  </p>
 
 
   <table align="center" width="1000px">
